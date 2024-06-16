@@ -1,0 +1,31 @@
+= README
+:nofooter:
+
+Imagine you want to prove that you did something on a specific day and have data files for that day. You don’t want to expose these data worldwide; you want to prove you have them and only show them to particular persons at a specific date after a while.
+
+You want to present part of your data after a few days, making sure that anyone who sees this data knows that data was produced on a specific date.
+
+Before the concept of Blockchain appeared, which today we can consider quite popular for many, one way would be as follows: you generate a hash of the data files you have and expose them in a medium that could be replicated to many locations and where it would be possible monitor whether the hash of these files has changed over time.
+
+A great place to keep a record of this is a Git repository. In this case,
+ifndef::video[]
+the place where you are reading this text. Such a repository
+endif::[]
+ifdef::video[]
+the Git repository in which the text of this video was generated, you can see the link in the QR code below,
+endif::[]
+is a great example that demonstrates this for 21 days, starting on June 15, 2024.
+
+A Git repository is mutable compared to a Blockchain. However, conceptually, a Git repository offers a similar structure in which, to maintain a history of data, we add new information to it without rewriting the history (although this is possible in Git).
+
+ifndef::video[]
+So, this 21-day data repository has just this intention:
+endif::[]
+ifdef::video[]
+So, my 21-day data repository’s intention is just this:
+endif::[]
+to prove that specific files were generated on a date without exposing them before the end of that period.
+
+ifdef::video[]
+I intend to explore the comparison between Git repositories and Blockchain even more deeply. So, if you are interested in topics such as Blockchain, which I like to expose technically, follow me on this channel and leave a comment to let me know if this topic interests you.
+endif::[]
